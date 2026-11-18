@@ -1,0 +1,14 @@
+# 系统与临时文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 日志与缓存
+*.log
+__pycache__/
+*.pyc
+
+# 数据备份与临时导出（生产数据不出域）
+*~
+*.bak
+export_tmp/
